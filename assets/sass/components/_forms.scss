@@ -1,3 +1,12 @@
+@mixin form-characteristics{
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+@mixin form-decoration {
+    text-decoration: none;
+    font-weight: bold;
+}
 
 .form-login {
     display: flex;
@@ -5,53 +14,52 @@
     margin: 0 auto;
     width: 400px;
     text-align: center;
-  }
-  .form-login__title {
+
+  &__title {
     width: 100%;
     font-weight: 400;
   }
-  
-  .form-options {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+  &_register-link {
+    @include form-decoration()
   }
-  .form-options__checkbox {
-    margin-right: 10px;
-  }
-  .form-options__forget-password {
-    text-decoration: none;
-    margin-bottom: 20px;
-  }
-  
-  
-  .form-login__register-link {
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .form-login__input {
+
+  &__input {
     width: 100%;
     height: 50px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
     margin: 10px 0;
     padding-left: 20px;
     font-size: large;
     font-weight: 100;
+    @include form-characteristics()
   }
+}
+
+  .form-options {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
   
+    &__checkbox {
+      margin-right: 10px;
+  }
+    &__forget-password {
+      margin-bottom: 20px;
+      @include form-decoration()  
+  }
+}
+  
+
+//listo  
   .form-subscription {
   
     width: 850px;
     height: 200px;
     background-color: #729E2E;
     margin-top: 100px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
     color: #fff;
     margin-left: 300px;
     margin-bottom: 20px;
+    @include form-characteristics()
   }
   
   .form-subscription_title {
@@ -69,13 +77,5 @@
     height: 40px;
     margin-left: 50px;
     display: inline-block;
-    border-radius: 5px;
-  }
-  .form-subscription__button {
-    margin-left: 70px;
-    height: 40px ;
-    width: 150px;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 15px;
+    @include form-characteristics()
   }
