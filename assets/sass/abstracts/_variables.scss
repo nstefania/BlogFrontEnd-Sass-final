@@ -1,0 +1,178 @@
+a {
+  text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .logo__img {
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+  }
+  .logo__text {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 20px;
+  }
+
+
+.post-body {
+  margin-left: 90px;
+  margin-top: 50px;
+}
+
+.post-title{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container_bootstrap {
+  width: 1250px;
+  height: 750px;
+  background-color: rgb(208, 202, 202);
+  margin-left: 100px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.post__img{
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 350px;
+  width: 550px;
+  height: 300px;
+  object-fit: cover;
+
+}
+
+.text-date{
+  display: inline-block;
+  margin-left: 30px;
+  font-weight: 100;
+  font-size: 14px;
+}
+.text__span{
+  font-weight: 500;
+}
+.bootstrap_text{
+  padding: 30px;
+}
+
+.container_relacionados {
+  width: 1250px;
+  height: 500px;
+  margin-left: 100px;
+
+}
+
+h2{
+  margin-top: 30px;
+}
+
+#logo {
+  border-radius: 50%;
+}
+
+h2{
+  font-weight: 700;
+  margin-left: 50px;
+}
+
+.text__span {
+  font-weight: 500;
+}
+
+.main__container_novedades1{
+  margin-left: 100px;
+  display: flex;
+  
+}
+
+.container_novedades1 {
+  height: 400px;
+  width: 700px;
+}
+
+.main__container_novedades2{
+  height: 450px;
+  width: 500px;
+  padding-left: 30px;
+  padding-top: 30px;
+  display: flex;
+}
+
+.main__container_populares {
+  height: 750px;
+  width: 1300px;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+}
+
+.container_populares {
+  height: 600px;
+  width: 650px;
+  float: left;
+  display: block;
+  
+}
+.main__container_categorias {
+  float: left;
+  height: 500px;
+  width: 500px;
+  margin-left: 50px;
+  display: block;
+}
+
+.categorias {
+  margin-top: 50px;
+}
+
+.categoria__post {
+  width: 350px;
+  height: 80px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 1em;
+}
+
+.categoria--red {
+  background-color: #E93E30;
+}
+.categoria--yellow {
+  background-color:#F7E018;
+}
+.categoria--blue {
+  background-color: #299ED5;
+}
+.categoria--grey {
+  background-color: #292C33;
+}
+.categoria--green {
+  background-color: #67C770;
+}
+.categoria--purple {
+  background-color: #563D7C;
+}
+
+.categoria__img {
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.categoria__span {
+  color: antiquewhite;
+  font-weight: 700;
+  font-size: 30px;
+  vertical-align: super;
+}
+.categorias_text{
+  margin-top: 20px;
+  text-align: center;
+}
